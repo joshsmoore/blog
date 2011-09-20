@@ -2,7 +2,9 @@
   <head>
     <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" charset="utf-8"/>
     <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" charset="utf-8"/>
-    <title>Coding For Rent</title>
+    <link rel="alternate" type="application/rss+xml" title="Coding For Rent RSS" 
+            href="http://feeds.feedburner.com/CodingForRent" />
+    <title>{{ page.title }}</title>
   <head>
   <body>
     <table class="main_table">
@@ -10,14 +12,13 @@
         <td colspan="2">
           <div class="title_bar">
             <h2>Coding For Rent</h2>
-            <h4>A blog by Josh Moore all about working with rails, Google App Engine, and other programming stuff</h4>
+            <h4>A blog by Josh Moore all about working with Rails, Ruby, and other programming stuff</h4>
             <h4>By: Joshua Moore</h4>
           </div>
         </td>
       </tr>
       <tr>
         <td class="content">
-          <h3>{{ page.title }}</h3>
           <div>
             {{ content }}
           </div>
