@@ -1,0 +1,97 @@
+h3.comment_title {
+    color: #999999;
+}
+
+span.comment_date {
+    float: right;
+}
+
+div.gist {
+    font-family: "Courier New";
+    font-size: .95em;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div.author {
+    text-align: right
+}
+
+table.main_table {
+    margin-left:auto;
+    margin-right:auto;
+    background: #FFFFFF;
+    width: 900px;
+}
+
+h3.post_title {
+    text-align: center;
+}
+
+body {
+    background-color: #999999
+}
+
+span.post_date {
+    background: #999999;
+    color: #ffffff;
+    padding: 4pt;
+}
+
+span.login {
+    float: right
+}
+
+td.content {
+    width: 690px
+}
+
+td.right {
+    width: 210px;
+    vertical-align: top;
+    border-left: thin solid #000000;
+}
+
+#container3 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#89ffa2; /* column 3 background colour */
+}
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:20%;
+	background:#ffa7a7; /* column 2 background colour */
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:60%;
+	background:#fff689; /* column 1 background colour */
+}
+#col1 {
+	float:left;
+	width:20.00%;
+	position:relative;
+    left: 80%;
+	overflow:hidden;
+}
+#col2 {
+	width:700px;
+	position:relative;
+    left:80%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:20.00%;
+	position:relative;
+    left: 80%;
+	overflow:hidden;
+}
