@@ -3,7 +3,19 @@ layout: default
 title: Coding For Rent
 ---
 
+{% for post in site.posts %}
+<br />
+<div class="post">
+  <div class="title">
+    <span class="post_date">{{ post.date | date_to_string }}</span>
+    <h3 class="post_title">{{ post.title }}</h2>
+  </div>
+  <div class="post_body">
+    {{ post.content }}  
+  </div>
+</div>
 
-{{ site.posts[0].title }}
+{% endfor %}
 
-{{ site.posts[0].content }}
+
+
