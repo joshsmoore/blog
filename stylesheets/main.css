@@ -1,3 +1,9 @@
+div.highlight {
+  width: 600px;
+  overflow: auto;  
+  background: lightyellow;
+}
+
 h3.comment_title {
     color: #999999;
 }
